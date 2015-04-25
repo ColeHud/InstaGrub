@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E969C7F11AEB2E2800168F1A /* InstaGrub.sketch in Resources */ = {isa = PBXBuildFile; fileRef = E969C7F01AEB2E2800168F1A /* InstaGrub.sketch */; };
+		E969C7F51AEB467800168F1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E969C7F41AEB467800168F1A /* Images.xcassets */; };
 		ED485B5E1ADB40DB002994BF /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED485B5C1ADB409A002994BF /* libsqlite3.dylib */; };
 		ED485B5F1ADB40DB002994BF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED485B5A1ADB4093002994BF /* libz.dylib */; };
 		ED485B601ADB40DB002994BF /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED485B3C1ADB3FFD002994BF /* Bolts.framework */; };
@@ -30,7 +31,6 @@
 		ED7CBB821AD7414D00B821A4 /* InstaGrub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED7CBB801AD7414D00B821A4 /* InstaGrub.xcdatamodeld */; };
 		ED7CBB851AD7414D00B821A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7CBB841AD7414D00B821A4 /* ViewController.m */; };
 		ED7CBB881AD7414D00B821A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED7CBB861AD7414D00B821A4 /* Main.storyboard */; };
-		ED7CBB8A1AD7414D00B821A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED7CBB891AD7414D00B821A4 /* Images.xcassets */; };
 		ED7CBB8D1AD7414D00B821A4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED7CBB8B1AD7414D00B821A4 /* LaunchScreen.xib */; };
 		ED7CBB991AD7414D00B821A4 /* InstaGrubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7CBB981AD7414D00B821A4 /* InstaGrubTests.m */; };
 /* End PBXBuildFile section */
@@ -47,6 +47,7 @@
 
 /* Begin PBXFileReference section */
 		E969C7F01AEB2E2800168F1A /* InstaGrub.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; path = InstaGrub.sketch; sourceTree = "<group>"; };
+		E969C7F41AEB467800168F1A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ED485B3C1ADB3FFD002994BF /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "Frameworks/parse-library-1.7.1/Bolts.framework"; sourceTree = SOURCE_ROOT; };
 		ED485B3D1ADB3FFD002994BF /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "Frameworks/parse-library-1.7.1/Parse.framework"; sourceTree = SOURCE_ROOT; };
 		ED485B3E1ADB3FFD002994BF /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseCrashReporting.framework; path = "Frameworks/parse-library-1.7.1/ParseCrashReporting.framework"; sourceTree = SOURCE_ROOT; };
@@ -73,7 +74,6 @@
 		ED7CBB831AD7414D00B821A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		ED7CBB841AD7414D00B821A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ED7CBB871AD7414D00B821A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ED7CBB891AD7414D00B821A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ED7CBB8C1AD7414D00B821A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ED7CBB921AD7414D00B821A4 /* InstaGrubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaGrubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7CBB971AD7414D00B821A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -159,7 +159,7 @@
 				ED7CBB831AD7414D00B821A4 /* ViewController.h */,
 				ED7CBB841AD7414D00B821A4 /* ViewController.m */,
 				ED7CBB861AD7414D00B821A4 /* Main.storyboard */,
-				ED7CBB891AD7414D00B821A4 /* Images.xcassets */,
+				E969C7F41AEB467800168F1A /* Images.xcassets */,
 				ED7CBB8B1AD7414D00B821A4 /* LaunchScreen.xib */,
 				ED7CBB801AD7414D00B821A4 /* InstaGrub.xcdatamodeld */,
 				ED7CBB791AD7414D00B821A4 /* Supporting Files */,
@@ -274,8 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED7CBB881AD7414D00B821A4 /* Main.storyboard in Resources */,
+				E969C7F51AEB467800168F1A /* Images.xcassets in Resources */,
 				ED7CBB8D1AD7414D00B821A4 /* LaunchScreen.xib in Resources */,
-				ED7CBB8A1AD7414D00B821A4 /* Images.xcassets in Resources */,
 				E969C7F11AEB2E2800168F1A /* InstaGrub.sketch in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
