@@ -26,4 +26,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+//resign the keyboard when done is pressed.
+- (IBAction)resignKeyboardUsername:(id)sender {
+    [self.usernameTextbox resignFirstResponder];
+}
+- (IBAction)resignKeyboardPassword:(id)sender {
+    [self.passwordTextbox resignFirstResponder];
+}
+
 @end
