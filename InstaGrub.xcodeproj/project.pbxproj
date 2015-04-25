@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E969C7F11AEB2E2800168F1A /* InstaGrub.sketch in Resources */ = {isa = PBXBuildFile; fileRef = E969C7F01AEB2E2800168F1A /* InstaGrub.sketch */; };
 		ED485B5E1ADB40DB002994BF /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED485B5C1ADB409A002994BF /* libsqlite3.dylib */; };
 		ED485B5F1ADB40DB002994BF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED485B5A1ADB4093002994BF /* libz.dylib */; };
 		ED485B601ADB40DB002994BF /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED485B3C1ADB3FFD002994BF /* Bolts.framework */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E969C7F01AEB2E2800168F1A /* InstaGrub.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; path = InstaGrub.sketch; sourceTree = "<group>"; };
 		ED485B3C1ADB3FFD002994BF /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "Frameworks/parse-library-1.7.1/Bolts.framework"; sourceTree = SOURCE_ROOT; };
 		ED485B3D1ADB3FFD002994BF /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "Frameworks/parse-library-1.7.1/Parse.framework"; sourceTree = SOURCE_ROOT; };
 		ED485B3E1ADB3FFD002994BF /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseCrashReporting.framework; path = "Frameworks/parse-library-1.7.1/ParseCrashReporting.framework"; sourceTree = SOURCE_ROOT; };
@@ -151,6 +153,7 @@
 		ED7CBB781AD7414D00B821A4 /* InstaGrub */ = {
 			isa = PBXGroup;
 			children = (
+				E969C7F01AEB2E2800168F1A /* InstaGrub.sketch */,
 				ED7CBB7D1AD7414D00B821A4 /* AppDelegate.h */,
 				ED7CBB7E1AD7414D00B821A4 /* AppDelegate.m */,
 				ED7CBB831AD7414D00B821A4 /* ViewController.h */,
@@ -273,6 +276,7 @@
 				ED7CBB881AD7414D00B821A4 /* Main.storyboard in Resources */,
 				ED7CBB8D1AD7414D00B821A4 /* LaunchScreen.xib in Resources */,
 				ED7CBB8A1AD7414D00B821A4 /* Images.xcassets in Resources */,
+				E969C7F11AEB2E2800168F1A /* InstaGrub.sketch in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
